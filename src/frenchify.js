@@ -2,7 +2,9 @@ export default class Frenchify {
   rulesArray = [];
 
   constructor(rulesArray) {
-    this.rulesArray = rulesArray;
+    if (typeof rulesArray !== 'undefined') {
+      this.rulesArray = rulesArray;
+    }
   }
 
   applyRules(content) {

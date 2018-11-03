@@ -1,5 +1,31 @@
+import Frenchify from '../src/frenchify';
+
 describe('Frenchify', () => {
   it('should...', () => {
-    expect(5).toBe(5);
+    const frenchify = new Frenchify();
+    const txt = 'abc';
+    expect(
+      frenchify.applyRules(txt)
+    ).toBe(
+      txt
+    );
   });
+
+  it('should...', () => {
+    const rules = [
+      {
+        "from": "--",
+        "to": "—",
+      },
+    ];
+
+    const frenchify = new Frenchify([rules]);
+    const txt = 'abc';
+    expect(
+      frenchify.applyRules(txt)
+    ).toBe(
+      txt
+    );
+  });
+
 });
