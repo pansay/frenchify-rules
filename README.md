@@ -18,7 +18,6 @@ Used by:
 
 * thin non breaking space from normal space for ?!;
 * non breaking space from normal space for :
-* em dash from --
 * French quotes with non breaking spaces from regular double quotes
 
 ### Spanish
@@ -28,6 +27,9 @@ Spanish typography rules, based on *[Diccionario panhispánico de dudas](http://
 ### English
 
 ### Extra formatting
+
+* en dash from --
+* em dash from ---
 
 * footnotes expected format
 
