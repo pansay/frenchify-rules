@@ -32,18 +32,18 @@ module.exports = function(config) {
       'specs/**/*.js': ['babel'],
     },
 
-    babelPreprocessor: {
-      options: {
-        presets: ['env'],
-        sourceMap: 'inline'
-      },
-      filename: function (file) {
-        return file.originalPath.replace(/\.js$/, '.es5.js');
-      },
-      sourceFileName: function (file) {
-        return file.originalPath;
-      }
-    },
+    // babelPreprocessor: {
+    //   options: {
+    //     presets: ['env'],
+    //     sourceMap: 'inline'
+    //   },
+    //   filename: function (file) {
+    //     return file.originalPath.replace(/\.js$/, '.es5.js');
+    //   },
+    //   sourceFileName: function (file) {
+    //     return file.originalPath;
+    //   }
+    // },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
