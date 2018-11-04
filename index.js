@@ -19,4 +19,4 @@ const languageRules = [
   },
 ];
 
-export default { Frenchify, rules, languageRules };
+export { Frenchify, rules, languageRules };
