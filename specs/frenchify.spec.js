@@ -56,7 +56,7 @@ describe('Frenchify', () => {
     });
   });
 
-  xdescribe('French rules', () => {
+  describe('French rules', () => {
     it('should replace space with non-breakable space', () => {
       const frenchify = new Frenchify([rulesFR]);
       const txt = 'abc : def';

@@ -40,9 +40,10 @@ module.exports = function(config) {
     // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
     logLevel: config.LOG_ERROR,
 
+    // https://stackoverflow.com/questions/53136406/babel-implementation-of-es2018-regexp-lookbehind-assertions
     browsers: [
-      'PhantomJS',
-      // 'Chrome',
+      // 'PhantomJS',
+      'Chrome',
       // 'Firefox',
     ],
   })
