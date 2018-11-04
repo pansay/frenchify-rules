@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src/*.js specs/*.js",
+    "lint": "eslint index.js src/*.js specs/*.js",
     "test": "karma start",
     "linttest": "npm run lint && npm run test"
   },
