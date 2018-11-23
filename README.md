@@ -8,7 +8,7 @@ Used by:
 
 * [Frenchify AngularJS](https://github.com/pansay/frenchify)
 * [Frenchify Angular](https://github.com/pansay/frenchify-angular)
-* [Frenchify VueJS](https://github.com/pansay/frenchify-angular)
+* [Frenchify VueJS](https://github.com/pansay/frenchify-vuejs)
 * [Frenchify React](https://github.com/pansay/frenchify-react)
 
 ## Transformation rules
