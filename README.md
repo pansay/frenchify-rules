@@ -6,8 +6,9 @@ Basic set of typographical rules, useful transformations Regular Expressions, an
 
 Used by:
 
+* [prePost](https://github.com/pansay/prepost) (improved version, in Svelte)
 * [Frenchify AngularJS](https://github.com/pansay/frenchify)
-* [Frenchify Angular](https://github.com/pansay/frenchify-angular)
+* [Frenchify Angular](https://github.com/pansay/frenchify-angular) (TODO)
 * [Frenchify VueJS](https://github.com/pansay/frenchify-vuejs)
 * [Frenchify React](https://github.com/pansay/frenchify-react)
 
