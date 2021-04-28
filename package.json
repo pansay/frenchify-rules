@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/pansay/frenchify-rules.git"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
